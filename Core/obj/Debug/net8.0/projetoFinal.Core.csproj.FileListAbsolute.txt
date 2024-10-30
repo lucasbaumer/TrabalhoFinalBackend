@@ -1,0 +1,15 @@
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\bin\Debug\net8.0\projetoFinal.Core.deps.json
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\bin\Debug\net8.0\projetoFinal.Core.runtimeconfig.json
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\bin\Debug\net8.0\projetoFinal.Core.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\bin\Debug\net8.0\projetoFinal.Core.pdb
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\projetoFinal.Core.csproj.AssemblyReference.cache
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\projetoFinal.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\projetoFinal.Core.AssemblyInfoInputs.cache
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\projetoFinal.Core.AssemblyInfo.cs
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\projetoFinal.Core.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\projetoFinal.Core.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\refint\projetoFinal.Core.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\projetoFinal.Core.pdb
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\projetoFinal.Core.genruntimeconfig.cache
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\ref\projetoFinal.Core.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Core\obj\Debug\net8.0\projetoFinal.Core.sourcelink.json
