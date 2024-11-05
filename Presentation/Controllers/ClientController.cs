@@ -10,10 +10,12 @@ namespace projetoFinal.Presentation.Controllers
         public class ClientController : ControllerBase
         {
             private readonly IClientService _clientService;
+            private readonly ILogger<ClientController> _logger;
 
-            public ClientController(IClientService clientService)
+            public ClientController(IClientService clientService, ILogger<ClientController> logger)
             {
                 _clientService = clientService;
+                _logger = logger;
             }
 
             [HttpGet]
@@ -21,11 +23,13 @@ namespace projetoFinal.Presentation.Controllers
             {
                 try
                 {
+                    _logger.LogInformation("Iniciando a recuperação de clientes.");
                     var clients = await _clientService.GetAllClientsAsync();
                     return Ok(clients);
                 }
                 catch (Exception ex)
                 {
+                    _logger.LogError(ex, "Erro ao recuperar clientes.");
                     return BadRequest(ex.Message);
                 }
             }
@@ -33,33 +37,44 @@ namespace projetoFinal.Presentation.Controllers
             [HttpGet("${id}")]
             public async Task<ActionResult<Client>> GetClientById(Guid id)
             {
-                var client = await _clientService.GetClientById(id);
-
-                if (client == null)
+                try
                 {
-                    throw new Exception("Cliente com id não foi encontrado!");
-                }
+                    var client = await _clientService.GetClientById(id);
 
-                return Ok(client);
+                    if (client == null)
+                    {
+                        throw new Exception("Cliente com id não foi encontrado!");
+                    }
+
+                    return Ok(client);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Erro ao recuperar cliente.");
+                    return BadRequest(ex.Message);
+                }
             }
 
-            [HttpPost]
+        [HttpPost]
             public async Task<ActionResult> AddClientsAsync(ClientDto clientDto)
             {
                 if (clientDto == null)
                 {
+                    _logger.LogWarning("Os dados do cliente não podem ser vazios!");
                     throw new Exception("Os dados do cliente não podem ser vazios!");
                 }
 
                 try
                 {
                     await _clientService.AddClientsAsync(clientDto);
+                    _logger.LogInformation("Cliente cadastrado com sucesso: {Cpf}", clientDto.Cpf);
                     return Ok("Cliente cadastrado com sucesso!");
                 }
                 catch (Exception ex)
                 {
                     if (ex.Message.Contains("Cpf já cadastrado!"))
                     {
+                        _logger.LogError(ex, "Erro ao cadastrar cliente.");
                         return Conflict("Esse cpf já está cadastrado!");
                     }
 
@@ -72,6 +87,7 @@ namespace projetoFinal.Presentation.Controllers
             {
                 if (clientDto == null)
                 {
+                    _logger.LogWarning("Os dados do cliente não podem ser vazios!");
                     throw new Exception("Os dados do cliente não podem ser vazios!");
                 }
 
@@ -82,6 +98,7 @@ namespace projetoFinal.Presentation.Controllers
                 }
                 catch (Exception ex)
                 {
+                    _logger.LogError(ex, "Erro ao atualizar cliente.");
                     return BadRequest(ex.Message);
                 }
             }
@@ -89,21 +106,30 @@ namespace projetoFinal.Presentation.Controllers
             [HttpDelete("${id}")]
             public async Task<ActionResult> DeleteClient(Guid id)
             {
-                var client = _clientService.GetClientById(id);
-
-                if (client == null)
+                try
                 {
-                    throw new Exception("Cliente não foi encontrado!");
-                }
+                    var client = _clientService.GetClientById(id);
 
-                bool clientHasSale = await _clientService.DeleteClientAsync(id);
-                if (clientHasSale)
+                    if (client == null)
+                    {
+                        throw new Exception("Cliente não foi encontrado!");
+                    }
+
+                    bool clientHasSale = await _clientService.DeleteClientAsync(id);
+                    if (clientHasSale)
+                    {
+                        throw new Exception("O cliente não pode ser excluido pois possui vendas associadas");
+                    }
+
+                    await _clientService.DeleteClientAsync(id);
+                    return Ok("Cliente foi excluido com sucesso!");
+
+                }
+                catch(Exception ex) 
                 {
-                    throw new Exception("O cliente não pode ser excluido pois possui vendas associadas");
+                    _logger.LogError(ex, "Erro ao excluir cliente.");
+                    return BadRequest(ex.Message);
                 }
-
-                await _clientService.DeleteClientAsync(id);
-                return Ok("Cliente foi excluido com sucesso!");
             }
         }
 }

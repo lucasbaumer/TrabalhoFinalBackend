@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\presentation\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|solutionrelative:presentation\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D0CAA5-F0D5-4340-9BD1-D8002CD3B002}|Tests\\projetoFinal.Tests.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\tests\\clientservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D0CAA5-F0D5-4340-9BD1-D8002CD3B002}|Tests\\projetoFinal.Tests.csproj|solutionrelative:tests\\clientservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|solutionrelative:application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|solutionrelative:application\\dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\core\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|solutionrelative:core\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229C9941-3651-491C-B685-E10E4C2D829C}|Infrastructure\\projetoFinal.Infrastructure.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229C9941-3651-491C-B685-E10E4C2D829C}|Infrastructure\\projetoFinal.Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|solutionrelative:application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\presentation\\mapping\\clientmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|solutionrelative:presentation\\mapping\\clientmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\core\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|solutionrelative:core\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Tests\\ClientServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ClientServiceTests.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Tests\\ClientServiceTests.cs",
+              "RelativeToolTip": "Tests\\ClientServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:05:29.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Mapping\\ClientMapper.cs",
+              "RelativeDocumentMoniker": "Presentation\\Mapping\\ClientMapper.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Mapping\\ClientMapper.cs",
+              "RelativeToolTip": "Presentation\\Mapping\\ClientMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:40:20.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:39:59.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Interfaces\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Interfaces\\IClientRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:39:49.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Entities\\Client.cs",
+              "RelativeToolTip": "Core\\Entities\\Client.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:39:37.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Services\\ClientService.cs",
+              "RelativeToolTip": "Application\\Services\\ClientService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:39:32.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IClientService.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:39:28.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\ClientDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\ClientDto.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\ClientDto.cs",
+              "RelativeToolTip": "Application\\Dto\\ClientDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:39:23.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAuwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:35:12.898Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

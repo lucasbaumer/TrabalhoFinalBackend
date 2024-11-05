@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\back\\trabalhoFinalBackend\\Core\\projetoFinal.Core.csproj": {}
+    "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\projetoFinal.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\back\\trabalhoFinalBackend\\Core\\projetoFinal.Core.csproj": {
+    "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\projetoFinal.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\back\\trabalhoFinalBackend\\Core\\projetoFinal.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\projetoFinal.Core.csproj",
         "projectName": "projetoFinal.Core",
-        "projectPath": "C:\\Users\\user\\source\\repos\\back\\trabalhoFinalBackend\\Core\\projetoFinal.Core.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\back\\trabalhoFinalBackend\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\projetoFinal.Core.csproj",
+        "packagesPath": "C:\\Users\\Lucas Baumer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucas Baumer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,6 +65,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
             }
           },
           "imports": [

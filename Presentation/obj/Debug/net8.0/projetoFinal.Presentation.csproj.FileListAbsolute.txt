@@ -149,3 +149,9 @@ C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Pr
 C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Presentation\obj\Debug\net8.0\projetoFinal.Presentation.pdb
 C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Presentation\obj\Debug\net8.0\projetoFinal.Presentation.genruntimeconfig.cache
 C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Presentation\obj\Debug\net8.0\ref\projetoFinal.Presentation.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Presentation\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Presentation\bin\Debug\net8.0\Moq.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Presentation\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Presentation\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Presentation\bin\Debug\net8.0\xunit.core.dll
+C:\Users\Lucas Baumer\Documents\Lucas\FACULDADE\4periodo\backend\ProjetoFinal\Presentation\bin\Debug\net8.0\xunit.execution.dotnet.dll
