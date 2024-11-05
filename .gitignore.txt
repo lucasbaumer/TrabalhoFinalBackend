@@ -1,1 +1,7 @@
+# Ignorar diretórios do Visual Studio
 .vs/
+*.vsidx
+
+# Ignorar binários e diretórios temporários
+bin/
+obj/
