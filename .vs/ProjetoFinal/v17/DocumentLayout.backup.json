@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{21D0CAA5-F0D5-4340-9BD1-D8002CD3B002}|Tests\\projetoFinal.Tests.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\tests\\salesservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D0CAA5-F0D5-4340-9BD1-D8002CD3B002}|Tests\\projetoFinal.Tests.csproj|solutionrelative:tests\\salesservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21D0CAA5-F0D5-4340-9BD1-D8002CD3B002}|Tests\\projetoFinal.Tests.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\tests\\clientservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21D0CAA5-F0D5-4340-9BD1-D8002CD3B002}|Tests\\projetoFinal.Tests.csproj|solutionrelative:tests\\clientservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\presentation\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|solutionrelative:presentation\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\presentation\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|solutionrelative:presentation\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\core\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|solutionrelative:core\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|solutionrelative:application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\interfaces\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|solutionrelative:application\\interfaces\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\dto\\saleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|solutionrelative:application\\dto\\saleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\dto\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|solutionrelative:application\\dto\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\dto\\saleitensdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|solutionrelative:application\\dto\\saleitensdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229C9941-3651-491C-B685-E10E4C2D829C}|Infrastructure\\projetoFinal.Infrastructure.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\infrastructure\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229C9941-3651-491C-B685-E10E4C2D829C}|Infrastructure\\projetoFinal.Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\core\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|solutionrelative:core\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\core\\entities\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|solutionrelative:core\\entities\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\core\\entities\\saleiten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|solutionrelative:core\\entities\\saleiten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\presentation\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|solutionrelative:presentation\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +61,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\application\\dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{907A3EE1-E308-4B68-BE37-E90E222499D0}|Application\\projetoFinal.Application.csproj|solutionrelative:application\\dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\core\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CCAEF9B-6C0B-4DD4-9338-5A212896B0A2}|Core\\projetoFinal.Core.csproj|solutionrelative:core\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CA4E0A7-5EE0-41AA-BF33-813BE1F6BA8B}|Presentation\\projetoFinal.Presentation.csproj|c:\\users\\lucas baumer\\documents\\lucas\\faculdade\\4periodo\\backend\\projetofinal\\presentation\\mapping\\clientmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,45 +95,174 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SalesServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Tests\\SalesServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\SalesServiceTests.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Tests\\SalesServiceTests.cs",
+              "RelativeToolTip": "Tests\\SalesServiceTests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:43:43.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Infrastructure\\Repositories\\SalesRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SalesRepository.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Infrastructure\\Repositories\\SalesRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\SalesRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:32:31.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\SaleController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:28:03.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SaleItensDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\SaleItensDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\SaleItensDTO.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\SaleItensDTO.cs",
+              "RelativeToolTip": "Application\\Dto\\SaleItensDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:30:39.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalesDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\SalesDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\SalesDTO.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\SalesDTO.cs",
+              "RelativeToolTip": "Application\\Dto\\SalesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:31:48.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaleUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\SaleUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\SaleUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\SaleUpdateDTO.cs",
+              "RelativeToolTip": "Application\\Dto\\SaleUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:32:01.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISaleService.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Interfaces\\ISaleService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ISaleService.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Interfaces\\ISaleService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ISaleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:32:06.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ClientServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Tests\\ClientServiceTests.cs",
               "RelativeDocumentMoniker": "Tests\\ClientServiceTests.cs",
               "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Tests\\ClientServiceTests.cs",
               "RelativeToolTip": "Tests\\ClientServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T23:05:29.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Mapping\\ClientMapper.cs",
-              "RelativeDocumentMoniker": "Presentation\\Mapping\\ClientMapper.cs",
-              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Mapping\\ClientMapper.cs",
-              "RelativeToolTip": "Presentation\\Mapping\\ClientMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ISaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Interfaces\\ISaleRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ISaleRepository.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Interfaces\\ISaleRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ISaleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T22:40:20.692Z",
+              "WhenOpened": "2024-11-05T23:32:26.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "Sales.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Entities\\Sales.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Sales.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Entities\\Sales.cs",
+              "RelativeToolTip": "Core\\Entities\\Sales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:32:20.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaleService.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Services\\SaleService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SaleService.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Services\\SaleService.cs",
+              "RelativeToolTip": "Application\\Services\\SaleService.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAowHMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:32:09.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SaleIten.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Entities\\SaleIten.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\SaleIten.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Entities\\SaleIten.cs",
+              "RelativeToolTip": "Core\\Entities\\SaleIten.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:32:16.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Infrastructure\\Repositories\\ClientRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ClientRepository.cs",
               "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Infrastructure\\Repositories\\ClientRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\ClientRepository.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T22:39:59.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T22:39:59.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "IClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Interfaces\\IClientRepository.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IClientRepository.cs",
@@ -97,73 +270,83 @@
               "RelativeToolTip": "Core\\Interfaces\\IClientRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T22:39:49.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T22:39:49.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Entities\\Client.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Client.cs",
               "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\Entities\\Client.cs",
               "RelativeToolTip": "Core\\Entities\\Client.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T22:39:37.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "ClientService.cs",
               "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Services\\ClientService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ClientService.cs",
               "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Services\\ClientService.cs",
               "RelativeToolTip": "Application\\Services\\ClientService.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T22:39:32.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "IClientService.cs",
               "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Interfaces\\IClientService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IClientService.cs",
               "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Interfaces\\IClientService.cs",
               "RelativeToolTip": "Application\\Interfaces\\IClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T22:39:28.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T22:39:28.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "ClientDto.cs",
               "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\ClientDto.cs",
               "RelativeDocumentMoniker": "Application\\Dto\\ClientDto.cs",
               "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Application\\Dto\\ClientDto.cs",
               "RelativeToolTip": "Application\\Dto\\ClientDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T22:39:23.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\ClientController.cs",
               "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Controllers\\ClientController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\ClientController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T22:35:12.898Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClientMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Mapping\\ClientMapper.cs",
+              "RelativeDocumentMoniker": "Presentation\\Mapping\\ClientMapper.cs",
+              "ToolTip": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Presentation\\Mapping\\ClientMapper.cs",
+              "RelativeToolTip": "Presentation\\Mapping\\ClientMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T22:40:20.692Z"
             }
           ]
         }

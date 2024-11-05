@@ -9,10 +9,12 @@ namespace projetoFinal.Presentation.Controllers
     public class SaleController : ControllerBase
     {
         private readonly ISaleService _saleService;
+        private readonly ILogger<SaleController> _logger;
 
-        public SaleController(ISaleService saleService)
+        public SaleController(ISaleService saleService, ILogger<SaleController> logger)
         {
             _saleService = saleService;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -25,6 +27,7 @@ namespace projetoFinal.Presentation.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Erro ao obter todas as vendas.");
                 return BadRequest(ex.Message);
             }
         }
@@ -32,14 +35,16 @@ namespace projetoFinal.Presentation.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<SalesDTO>> GetById(Guid id)
         {
-            var sale = await _saleService.GetSaleById(id);
-
-            if (sale == null)
+            try
             {
-                return NotFound("Venda não foi encontrada!");
+                var sale = await _saleService.GetSaleById(id);
+                return Ok(sale);
             }
-
-            return Ok(sale);
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao obter a venda com ID {SaleId}.", id);
+                return NotFound(ex.Message);
+            }
 
         }
 
@@ -53,6 +58,7 @@ namespace projetoFinal.Presentation.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Erro ao cadastrar venda.");
                 return BadRequest(ex.Message);
             }
         }
@@ -67,6 +73,7 @@ namespace projetoFinal.Presentation.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Erro ao atualizar a venda com ID {SaleId}.", id);
                 return BadRequest(ex.Message);
             }
         }
@@ -81,6 +88,7 @@ namespace projetoFinal.Presentation.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Erro ao deletar a venda com ID {SaleId}.", id);
                 return BadRequest(ex.Message);
             }
         }

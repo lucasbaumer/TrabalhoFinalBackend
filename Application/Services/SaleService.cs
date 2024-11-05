@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.Extensions.Logging;
 using projetoFinal.Application.Dto;
 using projetoFinal.Application.Interfaces;
 using projetoFinal.Core.Entities;
@@ -16,12 +17,14 @@ namespace projetoFinal.Application.Services
         private readonly ISaleRepository _saleRepository;
         private readonly IClientRepository _clientRepository;
         private readonly IMapper _mapper;
+        private readonly ILogger<SaleService> _logger;
 
-        public SaleService(ISaleRepository saleRepository, IClientRepository clientRepository, IMapper mapper)
+        public SaleService(ISaleRepository saleRepository, IClientRepository clientRepository, IMapper mapper, ILogger<SaleService> logger)
         {
             _saleRepository = saleRepository;
             _clientRepository = clientRepository;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public async Task AddSaleAsync(SalesDTO salesDto)
@@ -30,6 +33,7 @@ namespace projetoFinal.Application.Services
 
             if(client == null)
             {
+                _logger.LogWarning("O cliente com ID {ClientId} não foi encontrado.", salesDto.ClientId);
                 throw new Exception("O cliente não foi encontrado!");
             }
             
@@ -38,6 +42,7 @@ namespace projetoFinal.Application.Services
 
             await _saleRepository.AddSaleAsync(sale);
             await _saleRepository.SaveChangesAsync();
+            _logger.LogInformation("Venda adicionada com sucesso para o cliente {ClientName}.", client.Name);
         }
 
         public async Task DeleteSaleAsync(Guid id)
@@ -46,6 +51,7 @@ namespace projetoFinal.Application.Services
 
             if(sale == null)
             {
+                _logger.LogWarning("A venda com ID {SaleId} não foi encontrada.", id);
                 throw new Exception("A venda não foi encontrada!");
             }
 
@@ -62,8 +68,11 @@ namespace projetoFinal.Application.Services
                 {
                     _clientRepository.DeleteClient(client);
                     await _clientRepository.SaveChangesAsync();
+                    _logger.LogInformation("Cliente {ClientId} excluído porque não possui mais vendas.", clientId);
                 }
             }
+
+            _logger.LogInformation("Venda com ID {SaleId} deletada com sucesso.", id);
         }
 
         public async Task<IEnumerable<Sales>> GetAllSalesAsync()
@@ -72,6 +81,7 @@ namespace projetoFinal.Application.Services
 
             if (sales == null)
             {
+                _logger.LogWarning("Nenhuma venda foi encontrada.");
                 throw new Exception("Nenhum venda foi encontrada!");
             }
 
@@ -81,6 +91,12 @@ namespace projetoFinal.Application.Services
         public async Task<SalesDTO> GetSaleById(Guid id)
         {
             var sale = await _saleRepository.GetSaleById(id);
+
+            if (sale == null)
+            {
+                _logger.LogWarning("Venda com ID {SaleId} não foi encontrada.", id);
+                throw new Exception("Venda não foi encontrada!");
+            }
             return _mapper.Map<SalesDTO>(sale);
         }
 
@@ -90,6 +106,7 @@ namespace projetoFinal.Application.Services
 
             if(sale == null)
             {
+                _logger.LogWarning("Venda com ID {SaleId} não foi encontrada.", id);
                 throw new Exception("Venda não foi encontrada!");
             }
 
@@ -97,6 +114,7 @@ namespace projetoFinal.Application.Services
 
             _saleRepository.UpdateSale(sale);
             _saleRepository.SaveChangesAsync();
+            _logger.LogInformation("Venda com ID {SaleId} atualizada com sucesso.", id);
         }
     }
 }
