@@ -4041,19 +4041,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucas Baumer\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\projetoFinal.Core.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\back\\trabalhoFinalBackend\\Core\\projetoFinal.Core.csproj",
       "projectName": "projetoFinal.Core",
-      "projectPath": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\projetoFinal.Core.csproj",
-      "packagesPath": "C:\\Users\\Lucas Baumer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas Baumer\\Documents\\Lucas\\FACULDADE\\4periodo\\backend\\ProjetoFinal\\Core\\obj\\",
+      "projectPath": "C:\\Users\\user\\source\\repos\\back\\trabalhoFinalBackend\\Core\\projetoFinal.Core.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\back\\trabalhoFinalBackend\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lucas Baumer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
